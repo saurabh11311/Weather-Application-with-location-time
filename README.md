@@ -25,4 +25,6 @@ Type a city name, press Search, and the app fetches live weather data using a we
 
 Image Demo:-
 <img width="1183" height="743" alt="image" src="https://github.com/user-attachments/assets/f684da6b-6499-4ffe-9f20-39804dae3ac9" />
+<img width="1025" height="663" alt="image" src="https://github.com/user-attachments/assets/57af6121-aaa3-469e-bfb8-d28b2e5eb6e2" />
+
 

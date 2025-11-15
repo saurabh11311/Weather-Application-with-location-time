@@ -21,3 +21,8 @@ Fast API-based weather fetching
 🎯 How It Works
 
 Type a city name, press Search, and the app fetches live weather data using a weather API. The results appear instantly with location info and temperature.
+
+
+Image Demo:-
+<img width="1183" height="743" alt="image" src="https://github.com/user-attachments/assets/f684da6b-6499-4ffe-9f20-39804dae3ac9" />
+

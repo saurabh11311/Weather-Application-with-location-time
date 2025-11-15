@@ -1,0 +1,75 @@
+/* ----- RESET ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----- BODY ----- */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #63cdda, #1abc9c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* ----- INPUT SECTION ----- */
+input {
+    width: 65%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 16px;
+    background: #0a79df;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0652dd;
+    transform: translateY(-2px);
+}
+
+/* ----- WEATHER DETAILS ----- */
+#city-name {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#city-time {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+#city-temp {
+    margin-top: 18px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+/* ----- SMALL RESPONSIVE FIX ----- */
+@media (max-width: 400px) {
+    .weather-container {
+        width: 95%;
+    }
+
+    input {
+        width: 60%;
+    }
+}
